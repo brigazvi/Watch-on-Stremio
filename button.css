@@ -1,0 +1,14 @@
+#watchOnStremioWrapper {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 9999;
+}
+#watchOnStremioButton {
+  background: linear-gradient(to bottom, #7b5bf4, #1754da);
+  padding: 1rem 2rem;
+  border: none;
+  color: white;
+  font-family: sans-serif;
+  border-radius: 9999px;
+}

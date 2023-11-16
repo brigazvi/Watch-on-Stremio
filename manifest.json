@@ -1,0 +1,22 @@
+{
+  "description": "add a Watch on Stremio button to various movie sites.",
+  "manifest_version": 2,
+  "name": "Watch on Stremio",
+  "version": "0.1",
+  "homepage_url": "https://www.stremio.com",
+  "icons": {
+    "48": "icons/stremio-48.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.imdb.com/title/*"],
+      "js": ["imdb.js"],
+      "css": ["button.css"]
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "WatchOnStremio@Stremio.com"
+    }
+  }
+}
